@@ -1,0 +1,412 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px auto;
+}
+
+#khung1lon {
+    background: #177adb;
+    height: 40px;
+    width: 100%;
+}
+
+#khung1lon #khung1 {
+    width: 1150px;
+    margin: 0px auto;
+}
+
+#khung1 ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#khung1 ul li {
+    list-style: none;
+    float: right;
+}
+
+#khung1 ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    margin-right: 10px;
+}
+
+#khung1 ul li a:hover{
+    color: rgb(0, 200, 119);
+}
+/* ĐÂY LÀ PHẦN KHUNG 111111111111111111111111111111111111111111111111111111111111111111111111*/
+
+#khung2 {
+    height: 80px;
+    width: 1150px;
+    margin: 0px auto;
+
+}
+
+#khung2 #left{
+    float: left;
+    width: 330px;
+    height: 80px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#khung2 #left img{
+    float: left;
+}
+
+#khung2 #left ul li{
+    list-style: none;
+
+}
+
+#khung2 #right{
+    float: right;
+    width: 150px;
+    height: 80px;
+}
+
+#khung2 #right a {
+    text-decoration: none;
+    font-size: 13px;
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    color: black;
+    padding: 0px 0px 0px 30px;
+    margin-right: 0px;
+    font-weight: 600;
+    
+}
+
+#khung2 #mid ul {
+    margin: 0 auto;
+    padding: 0px;
+}
+
+#khung2 #mid{
+    float: right;
+    width: 820px;
+    height: 80px;
+    font-size: 13px;
+    font-weight: 600;
+    background: white;
+}
+
+#khung2 #mid ul li {
+    list-style: none;
+    float: right;
+}
+
+#khung2 #mid ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    color: black;
+    padding: 0px 10px 0px 10px;
+    margin: 0 auto;
+    font-weight: 600;
+}
+#khung2 #mid button {
+    border : 1px solid #307be7;
+    border-radius: 20px; 
+}
+
+#khung2 #mid ul li a:hover {
+    color: #307be7;
+}
+/* ĐÂY LÀ PHẦN KHUNG 222222222222222222222222222222222222222222222222222222222222222222222222222*/
+
+#khung3 #top{
+    height: auto;
+    width: 1150px;
+    margin: 0px auto;
+
+}
+
+#khung3 #top img{
+    width: 1150px;
+}
+
+#khung3 #mid1{
+    height: 60px;
+    border-bottom: 1px solid rgba(148, 147, 147, 0.918);
+    width: 1150px;  
+    margin: 0px auto;
+
+}
+
+#khung3 #mid1 p {
+    margin-top: 20px;
+}
+
+#khung3 #mid1 p b a{
+    text-decoration: none;
+    color: black;
+}
+
+#khung3 #mid1 p b a:hover{
+    color: #307be7;
+}
+
+#khung3 #mid2{
+    width: 1150px;  
+    margin: 0px auto;
+}
+
+#khung3 #mid2 p {
+    font-size: 15px;
+    word-wrap:break-word;
+
+}
+
+.fixedclass{
+    top:50%;
+    right: 5px;
+    background-color: #307be7;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 20;
+    position: fixed;
+    transform: translate(0%,-50%);
+
+}
+.fixedclass a{
+    display: block;
+    font-size: 1.4rem;
+    color:white ;
+    cursor: pointer;
+    text-align: center;
+
+
+}
+
+.fixedclass i{
+    display: block;
+    padding-bottom: 15px;
+}
+.fixedclass span{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.fixedclass a span:last-child{
+    font-size: 16px;
+    font-weight: 700;
+}
+.fixedclass a:last-child{
+    display: block;
+    position: absolute;
+    bottom: -45px;
+    left: 40%;
+    width: 40px;
+    cursor: pointer;
+    color: #307be7 !important;
+
+}
+.fixedclass a:last-child i:hover{
+    color: rgb(51, 223, 108);
+}
+.fixedclass a:hover{
+    text-decoration: none;
+    color:  rgb(51, 223, 108);
+}
+
+#khung3 #bot{
+    margin-top: 145px;
+    background-image: url('../img/backgroundbot.png');
+    height: 300px;
+}
+
+#khung3 #bot #bot_1{
+    color: white;
+    width: 1150px;  
+    margin: 0px auto;
+}
+
+#khung3 #bot #bot_1 #left{
+
+    float: left;
+    width: 400px;
+    height: 200px;
+    font-size: 12px;
+    margin-top: 30px;
+    color: white;
+}
+
+#khung3 #bot #bot_1 #left img{
+    float: left;
+}
+
+#khung3 #bot #bot_1 #left ul li{
+    list-style: none;
+    margin-left: 60px;
+
+}
+
+#khung3 #bot #bot_1 #left ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#khung3 #bot #bot_1 #left ul li a:hover{
+    color: rgb(51, 223, 108);
+}
+
+#khung3 #bot #bot_1 #right{
+    float: right;
+    width: 350px;
+    height: 200px;
+
+    margin-top: 30px;
+}
+
+#khung3 #bot #bot_1 #mid{
+    float: left;
+    width: 400px;
+    height: 200px;
+    font-size: 14px;
+    margin-top: 30px;
+    color: white;
+
+}
+
+#khung3 #bot #bot_1 #mid ul li{
+    list-style: none;
+}
+
+#khung3 #bot #bot_1 #mid ul li a{
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+}
+
+#khung3 #bot #bot_1 #mid ul li a:hover{
+    color: rgb(51, 223, 108);
+}
+
+#khung3 #bot #bot_2{
+    height: 100px;
+    color: white;
+    font-size: 10px;
+    clear: left;
+}
+
+#footerlon{
+    background: #2368cc;
+    height: 50px;
+}
+
+#footer {
+    width: 1150px;
+    font-weight: 600;
+    margin: 0px auto;
+
+
+}
+
+#footer ul {
+    margin: 0px;
+   padding-left: 670px;
+}
+
+#footer ul li {
+    list-style: none;
+    float: left;
+
+}
+
+#footer ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    padding: 5px 10px 0px 10px;
+    margin-right: 10px;    
+}
+
+#footer ul li a:hover {
+    color: #2fff51;
+}
+
+@media only screen 
+    and (max-width: 375px)  { 
+        body{
+            max-width: 375px;
+        }
+        #mid2{
+            max-width: 345px;
+            margin: 0px auto;
+            height: auto;
+            word-wrap:break-word;
+        }
+        #mid1{
+            max-width: 345px;
+            margin: 0px auto;
+            height: auto;
+            word-wrap:break-word;
+        }
+        #khung3 #bot #bot_1 #left{
+            float: none;
+            height: auto;
+            padding-top: 10px;
+        }
+        #khung3 #bot #bot_1 #left img{
+            padding-right: 10px;
+            padding-left: 40px;
+            height: 72px;
+        }
+        #khung3 #bot #bot_1 #left ul li{
+            padding-right: 40px;
+        }
+        #khung3 #bot #bot_1 #mid{
+            padding-right: 90px;
+            text-align: center;
+            float: none;
+            height: auto;
+        }
+        #khung3 #bot #bot_1 #right{
+            float: none;
+            text-align: center;
+            height: auto;
+        }
+        #khung3 #bot{
+            height: auto;
+            background-image: none;
+            background-color: rgb(48, 123, 231);
+        }
+        #footerlon {
+            height: 90px;  
+
+        }
+        #footer {
+            float: none;
+            max-width: 375px;
+            text-align: center; 
+        }
+        #footer ul{   
+            padding-left: 0px;
+            margin-left: 20px;
+        }
+        #footer ul li a{
+            font-size: 10px;   
+        }
+        #footer ul li a p{
+            padding-bottom: 1px;
+            padding-left: 140px;
+        }
+    }

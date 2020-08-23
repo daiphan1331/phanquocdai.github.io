@@ -1,0 +1,545 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#khung1lon {
+    background: #177adb;
+    height: 40px;
+    width: 100%;
+}
+#khung1lon #khung1 {
+    width: 59.375%;   
+    margin: 0px auto;
+}
+#khung1 ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#khung1 ul li {
+    list-style: none;
+    float: right;
+}
+#khung1 ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    margin-right: 10px;
+}
+#khung1 ul li a:hover{
+    color: rgb(0, 200, 119);
+}
+.midmid{
+    width: 59.375%;
+    margin: 0px auto;   
+}
+#khung2 {
+    height: 80px;
+    margin: 0px auto;
+
+}
+
+#khung2 #left{
+    float: left;
+    width: 28.7%;
+    height: 80px;
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+#khung2 #left img{
+    float: left;
+}
+
+#khung2 #left ul li{
+    list-style: none;
+
+}
+#khung2 #mid ul {
+    margin: 0 auto;
+    padding: 0px;
+}
+
+#khung2 #mid{
+    float: left;
+    width: 59%;
+    height: 80px;
+    font-size: 13px;
+    font-weight: 600;
+    background: white;
+}
+
+#khung2 #mid ul li {
+    list-style: none;
+    float: right;
+}
+
+#khung2 #mid ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    color: black;
+    padding: 0px 0px 0px 23px;
+    font-weight: 600;
+}
+#khung2 #mid ul li a:hover {
+    color: #307be7;
+}
+.dropdown {
+    margin-top: 20px;
+    float: right;
+}
+#khung2 button {
+    border : 1px solid #307be7;
+    border-radius: 20px; 
+    float: right;
+}
+/* ĐÂY LÀ PHẦN KHUNG 222222222222222222222222222222222222222222222222222222222222222222222222222*/
+
+#khung3 #top{
+    height: auto;
+    margin: 0px auto;
+
+}
+
+#khung3 #top img{
+    width: 100%;
+}
+
+#khung3 #mid1{
+    height: 60px;
+    border-bottom: 1px solid rgba(148, 147, 147, 0.918);
+    margin: 0px auto;
+
+}
+
+#khung3 #mid1 p {
+    margin-top: 20px;
+}
+
+#khung3 #mid1 p b a{
+    text-decoration: none;
+    color: black;
+}
+
+#khung3 #mid1 p b a:hover{
+    color: #307be7;
+}
+
+#khung3 #mid2{ 
+    margin: 0px auto;
+}
+
+#khung3 #mid2 p {
+    font-size: 15px;
+    word-wrap:break-word;
+
+}
+
+.fixedclass{
+    top:50%;
+    right: 5px;
+    background-color: #307be7;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 20;
+    position: fixed;
+    transform: translate(0%,-50%);
+
+}
+.fixedclass a{
+    display: block;
+    font-size: 1.4rem;
+    color:white ;
+    cursor: pointer;
+    text-align: center;
+
+
+}
+
+.fixedclass i{
+    display: block;
+    padding-bottom: 15px;
+}
+.fixedclass span{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.fixedclass a span:last-child{
+    font-size: 16px;
+    font-weight: 700;
+}
+.fixedclass a:last-child{
+    display: block;
+    position: absolute;
+    bottom: -45px;
+    left: 40%;
+    width: 40px;
+    cursor: pointer;
+    color: #307be7 !important;
+
+}
+.fixedclass a:last-child i:hover{
+    color: rgb(51, 223, 108);
+}
+.fixedclass a:hover{
+    text-decoration: none;
+    color:  rgb(51, 223, 108);
+}
+
+#bot{
+    margin-top: 145px;
+    background-image: url('../img/backgroundbot.png');
+    height: 300px;
+    margin: 0px auto;  
+}
+
+#bot #bot_1{
+    color: white;
+    margin: 0px auto;
+    width: 59.375%;
+}
+
+#bot #bot_1 #left{
+
+    float: left;
+    width: 35.088%;
+    height: 200px;
+    font-size: 12px;
+    margin-top: 30px;
+    color: white;
+}
+
+#bot #bot_1 #left img{
+    float: left;
+}
+
+#bot #bot_1 #left ul li{
+    list-style: none;
+    margin-left: 60px;
+
+}
+
+#bot #bot_1 #left ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#bot #bot_1 #left ul li a:hover{
+    color: rgb(51, 223, 108);
+}
+
+#bot #bot_1 #right{
+    float: right;
+    width: 29.824%;
+    height: 200px;
+    margin-top: 30px;
+}
+
+#bot #bot_1 #mid{
+    float: left;
+    width: 35.088%;
+    height: 200px;
+    font-size: 14px;
+    margin-top: 30px;
+    color: white;
+
+}
+
+#bot #bot_1 #mid ul li{
+    list-style: none;
+}
+
+#bot #bot_1 #mid ul li a{
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+}
+
+#bot #bot_1 #mid ul li a:hover{
+    color: rgb(51, 223, 108);
+}
+
+#bot #bot_2{
+    height: 100px;
+    color: white;
+    font-size: 10px;
+    clear: left;
+}
+
+#footerlon{
+    background: #2368cc;
+    height: auto;
+}
+
+#footer {
+    height: 50px;
+    width: 59.375%;
+    font-weight: 600;
+    margin: 0px auto;
+}
+
+#footer ul {
+    float: right;
+    margin: 0px auto;
+}
+
+#footer ul li {
+    list-style: none;
+    float: left;
+
+}
+
+#footer ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    display: block;
+    color: white;
+    padding: 15px 10px 0px 10px;
+    margin-right: 10px;    
+}
+
+#footer ul li a:hover {
+    color: #2fff51;
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px){
+    #khung1lon #khung1{
+        width: 79.17%;
+    }
+    .midmid{
+        width: 79.17%;
+        word-wrap:break-word;
+    }
+    #footer{
+        width: 79.17%;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    #khung1lon #khung1{
+        width: 96.875%;
+    }
+    .midmid{
+        width: 96.875%;
+        word-wrap:break-word;
+    }
+    #khung2 #mid {
+        float:none;
+    }
+    #khung2 #left{
+        width: 32%;
+        padding-top: 30px;
+    }   
+    #khung2 #mid{
+        width: 68%;
+    } 
+    #khung2 #mid ul li a {
+        padding: 0px 10px 0px 10px;
+    }
+    .dropdown {
+        margin-top: 0px;
+    }
+    #khung2 button {
+        margin-top: 10px;
+        margin-right: 850px;
+    }
+    #khung3 #top{
+        margin-top: 60px;
+    } 
+    #bot #bot_1{
+        width: 96.875%;
+    }
+    #bot #bot_1 #left{
+        padding-top: 15px;
+    }
+    #footer{
+        width: 96.875%;
+    }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px){
+    .midmid{
+        width: 96.875%;
+        word-wrap:break-word;
+    }
+    #bot{
+        height: auto;
+        background-image: none;
+        background-color: rgb(48, 123, 231);
+        width: 100%;
+        align-items: center;
+    }
+    #bot #bot_1{
+        width: 100%;
+    }
+    #bot #bot_1 #left{
+        float: none;
+        height: auto;
+        padding-top: 10px;
+        width: 100%;
+        padding-left: 30%;      
+    }
+    #bot #bot_1 #left img{
+        height: 72px;
+    }
+    #bot #bot_1 #mid{
+        padding-right: 10%;
+        text-align: center;
+        float: none;
+        height: auto;
+        width: 100%;
+    }
+    #bot #bot_1 #right{
+        float: none;
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+    #footerlon {
+        height: 90px;
+    }
+    #footer {
+        height: auto;
+        float: none;
+        width: 100%;
+        text-align: center; 
+    }
+    #footer ul{   
+        padding-left: 0px;
+        margin-left: 200px;
+    }
+    #footer ul li a p{
+        padding-bottom: 1px;
+        padding-left: 160px;
+    }
+}    
+@media only screen and (min-width: 376px) and (max-width: 425px){
+    .midmid{
+        width: 96.875%;
+        word-wrap:break-word;
+    }
+    #bot{
+        height: auto;
+        background-image: none;
+        background-color: rgb(48, 123, 231);
+        width: 100%;
+        align-items: center;
+    }
+    #bot #bot_1{
+        width: 100%;
+    }
+    #bot #bot_1 #left{
+        float: none;
+        height: auto;
+        padding-top: 10px;
+        width: 100%;
+        padding-left: 15%;      
+    }
+    #bot #bot_1 #left img{
+        height: 72px;
+    }
+    #bot #bot_1 #mid{
+        padding-right: 20%;
+        text-align: center;
+        float: none;
+        height: auto;
+        width: 100%;
+    }
+    #bot #bot_1 #right{
+        float: none;
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+    #footerlon {
+        height: 80px;
+    }
+    #footer {
+        height: auto;
+        float: none;
+        width: 100%;
+        text-align: center; 
+    }
+    #footer ul{   
+        padding-left: 0px;
+        margin-left: 60px;
+    }
+    #footer ul li a{
+        font-size: 10px;   
+    }
+    #footer ul li a p{
+        padding-bottom: 1px;
+        padding-left: 140px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 375px){
+    .midmid{
+        width: 96.875%;
+        word-wrap:break-word;
+    }
+    #bot{
+        height: auto;
+        background-image: none;
+        background-color: rgb(48, 123, 231);
+        width: 100%;
+        align-items: center;
+    }
+    #bot #bot_1{
+        width: 100%;
+    }
+    #bot #bot_1 #left{
+        float: none;
+        height: auto;
+        padding-top: 10px;
+        width: 100%;
+        padding-left: 15%;      
+    }
+    #bot #bot_1 #left img{
+        height: 72px;
+    }
+    #bot #bot_1 #mid{
+        padding-right: 20%;
+        text-align: center;
+        float: none;
+        height: auto;
+        width: 100%;
+    }
+    #bot #bot_1 #right{
+        float: none;
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+    #footerlon {
+        height: 80px;
+    }
+    #footer {
+        height: auto;
+        float: none;
+        width: 100%;
+        text-align: center; 
+    }
+    #footer ul{   
+        padding-left: 0px;
+        margin-left: 20px;
+    }
+    #footer ul li a{
+        font-size: 10px;   
+    }
+    #footer ul li a p{
+        padding-bottom: 1px;
+        padding-left: 140px;
+    }
+}
