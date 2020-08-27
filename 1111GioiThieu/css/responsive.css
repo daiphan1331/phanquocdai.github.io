@@ -1,0 +1,319 @@
+@media only screen and (min-width: 1025px) and (max-width: 1142px){
+    #khung1lon #khung1{
+        width: 96.875%;
+    }
+    .nav-bar ul{
+        padding-right: 1.5%;
+        padding-left: 1.5%;      
+    }
+    .nav-bar li{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .dropdown{
+        padding-top: 5px;
+    }
+    .midmid{
+        width: 96.875%;
+        word-wrap:break-word;
+    }
+    #khung2 #mid {
+        float:none;
+    }
+    #khung2 #left{
+        width: 32%;
+        padding-top: 30px;
+    }   
+    #khung2 #mid{
+        width: 68%;
+    } 
+    #khung2 #mid ul li a {
+        padding: 0px 10px 0px 10px;
+    }
+    .dropdown {
+        margin-top: 0px;
+    }
+    #khung2 button {
+        margin-top: 10px;
+        margin-right: 850px;
+    }
+    
+    #bot #bot_1{
+        width: 96.875%;
+    }
+    #bot #bot_1 #left{
+        padding-top: 15px;
+    }
+    #footer{
+        width: 96.875%;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    
+    .nav-bar ul{
+        padding-right: 1.5%;
+        padding-left: 1.5%;      
+    }
+    .nav-bar li{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .dropdown{
+        padding-top: 5px;
+    }
+    .midmid{
+        width: 96.875%;
+        word-wrap:break-word;
+    }
+    #khung2 #mid {
+        float:none;
+    }
+    #khung2 #left{
+        width: 32%;
+        padding-top: 30px;
+    }   
+    #khung2 #mid{
+        width: 68%;
+    } 
+    #khung2 #mid ul li a {
+        padding: 0px 10px 0px 10px;
+    }
+    .dropdown {
+        margin-top: 0px;
+    }
+    #khung2 button {
+        margin-top: 10px;
+        margin-right: 850px;
+    }
+
+    #bot #bot_1{
+        width: 96.875%;
+    }
+    #bot #bot_1 #left{
+        padding-top: 15px;
+    }
+    #footer{
+        width: 96.875%;
+    }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px){
+    .midmid{
+        width: 96.875%;
+        word-wrap:break-word;
+    }
+    #khung3 {
+        padding-top: 90px;
+    }
+    #bot{
+        height: auto;
+        background-image: none;
+        background-color: rgb(48, 123, 231);
+        width: 100%;
+        align-items: center;
+    }
+    #bot #bot_1{
+        width: 100%;
+    }
+    #bot #bot_1 #left{
+        float: none;
+        height: auto;
+        padding-top: 10px;
+        width: 100%;
+        padding-left: 30%;      
+    }
+    #bot #bot_1 #left img{
+        height: 72px;
+    }
+    #bot #bot_1 #mid{
+        padding-right: 10%;
+        text-align: center;
+        float: none;
+        height: auto;
+        width: 100%;
+    }
+    #bot #bot_1 #right{
+        float: none;
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+    #footerlon {
+        height: 90px;
+    }
+    #footer {
+        height: auto;
+        float: none;
+        width: 100%;
+        text-align: center; 
+    }
+    #footer ul{   
+        padding-left: 0px;
+        margin-left: 200px;
+    }
+    #footer ul li a p{
+        padding-bottom: 1px;
+        padding-left: 160px;
+    }
+}    
+@media only screen and (min-width: 376px) and (max-width: 425px){
+    .midmid{
+        width: 96.875%;
+        word-wrap:break-word;
+    }
+    #khung3 {
+        padding-top: 75px;
+    }
+    #bot{
+        height: auto;
+        background-image: none;
+        background-color: rgb(48, 123, 231);
+        width: 100%;
+        align-items: center;
+    }
+    #bot #bot_1{
+        width: 100%;
+    }
+    #bot #bot_1 #left{
+        float: none;
+        height: auto;
+        padding-top: 10px;
+        width: 100%;
+        padding-left: 15%;      
+    }
+    #bot #bot_1 #left img{
+        height: 72px;
+    }
+    #bot #bot_1 #mid{
+        padding-right: 20%;
+        text-align: center;
+        float: none;
+        height: auto;
+        width: 100%;
+    }
+    #bot #bot_1 #right{
+        float: none;
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+    #footerlon {
+        height: 80px;
+    }
+    #footer {
+        height: auto;
+        float: none;
+        width: 100%;
+        text-align: center; 
+    }
+    #footer ul{   
+        padding-left: 0px;
+        margin-left: 60px;
+    }
+    #footer ul li a{
+        font-size: 10px;   
+    }
+    #footer ul li a p{
+        padding-bottom: 1px;
+        padding-left: 140px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 375px){
+    .midmid{
+        width: 96.875%;
+        word-wrap:break-word;
+    }
+    #khung3 {
+        padding-top: 75px;
+    }
+    #bot{
+        height: auto;
+        background-image: none;
+        background-color: rgb(48, 123, 231);
+        width: 100%;
+        align-items: center;
+    }
+    #bot #bot_1{
+        width: 100%;
+    }
+    #bot #bot_1 #left{
+        float: none;
+        height: auto;
+        padding-top: 10px;
+        width: 100%;
+        padding-left: 15%;      
+    }
+    #bot #bot_1 #left img{
+        height: 72px;
+    }
+    #bot #bot_1 #mid{
+        padding-right: 20%;
+        text-align: center;
+        float: none;
+        height: auto;
+        width: 100%;
+    }
+    #bot #bot_1 #right{
+        float: none;
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+    #footerlon {
+        height: 80px;
+    }
+    #footer {
+        height: auto;
+        float: none;
+        width: 100%;
+        text-align: center; 
+    }
+    #footer ul{   
+        padding-left: 0px;
+        margin-left: 20px;
+    }
+    #footer ul li a{
+        font-size: 10px;   
+    }
+    #footer ul li a p{
+        padding-bottom: 1px;
+        padding-left: 140px;
+    }
+}
+@media only screen and (min-width: 992px){
+    .nav-mobile{
+        display: none;
+    }
+}
+@media only screen and (max-width: 992px){
+    .nav-top{
+        display: none;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .black-screen.active {
+        top: 0;
+        position: fixed;
+        background: black;
+        opacity: 0.6;
+        height: 100vh;
+        width: 100vw;
+        z-index: 1035;
+    }
+    .menu-collapse {
+        display: none;
+    }
+   .menu-collapse.active{
+       display: block;
+   }
+    .support .col-lg{
+        display: block;
+    }
+    .support .row .col-md-3{
+        max-width: 33.3333%;
+        flex: 0 0 33.333333%
+    }
+
+
+}
